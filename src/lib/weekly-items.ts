@@ -2204,7 +2204,7 @@ export const WEEKLY_ITEMS: WeeklyItem[] = [
         "marketValue":  "Low"
     },
     {
-        "img":  "https://tibiapal.com/images/deliveries/terra_boots.gif",
+        "img":  "https://tibiapal.com/images/deliveries/terra_boots1.gif",
         "nome":  "Terra Boots",
         "valor":  "2 500",
         "marketValue":  "Low"
