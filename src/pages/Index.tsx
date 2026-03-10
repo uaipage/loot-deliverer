@@ -30,7 +30,8 @@ const Index = () => {
   }, []);
 
   return (
-    <div className="flex h-screen w-screen overflow-hidden bg-background">
+    <div className="flex h-screen w-screen flex-col overflow-hidden bg-background">
+      <div className="flex flex-1 min-h-0">
       {/* Left: Hunting Analyzer Input */}
       <div className="flex w-1/3 min-w-0 flex-col border-r border-border">
         <label className="border-b border-border px-4 py-3 text-xs font-semibold uppercase tracking-widest text-muted-foreground">
