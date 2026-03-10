@@ -48,6 +48,14 @@ const Index = () => {
 
         {/* Action bar */}
         <div className="flex flex-col items-center justify-center gap-3 border-r border-border bg-background px-3">
+          <a
+            href="https://github.com/M1113R"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[10px] text-muted-foreground hover:text-primary transition-colors"
+          >
+            feito por <span className="font-semibold">M1113R</span>
+          </a>
           <button
             onClick={handleAnalyze}
             className="whitespace-nowrap bg-primary px-4 py-2 font-mono text-xs font-bold uppercase tracking-wider text-primary-foreground transition-colors hover:brightness-110 focus:outline-none focus:ring-2 focus:ring-ring"
